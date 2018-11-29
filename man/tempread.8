@@ -1,0 +1,27 @@
+.TH tempRead 8
+.SH tempRead 8
+1 Wire Temperature Reader  \- Reads temperature of 1 wire device
+.SH SYNOPSIS
+.B tempRead
+[\fB\-n\fR]
+[\fB\-\-bits\fR \fIBITS\fR]
+.IR tempRead.c
+.SH DESCRIPTION
+.PP
+Reads temperature of a 1 wire device.
+.PP
+Arugement  -d "number" will specify the device number. 
+.PP
+Arugement  -v will output extra information regrading the device. 
+.SH OPTIONS
+.TP
+.BR \-n ", " \-\-bits =\fIBITS\fR
+.TP
+-v
+Verbose, extra information regarding the 1wire device.
+.PP
+.TP
+-d
+device, follow the -d entre the device serial number.
+
+
